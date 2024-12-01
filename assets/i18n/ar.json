@@ -4,6 +4,28 @@
 
 "DIR": "rtl",
 "Name":"الاسم",
+"Choose":"اختر",
+"Photo":"الصور",
+"TotalInvoice":"اجمالي الفاتورة",
+"TotalDiscount":"اجمالي الخصم",
+"TotalVat":"اجمالي الضريبة",
+"TotalAfterVat":"الصافي بعد الخصم والضريبة",
+"ColumnsSelected":"عدد الخانات المختارة",
+"NetThamBranch":"الرصيد في الفرع",
+"NetOtherBranch":"الرصيد في الفروع الاخري",
+"BranchName":"الفرع",
+"UserName":"المستخدم",
+"RoleName":"الصلاحية",
+"ProductCount":"عدد المنتجات",
+
+
+
+
+
+
+
+
+
 
 "PageTitle":{
 "ProofOfExpenses":"اثبات المصروفات",
@@ -20,13 +42,13 @@
 "Storage":"المخازن",
 "BankAccounts":" الحسابات البنكية",
 "Banks":" البنوك ",
-"ItemTransaction":" حركات الاصناف ",
+"ItemTransaction":" حركات المنتجات ",
 "Treasury":"الخزن",
 "FinanceSettings":"الاعدادات المالية",
 "AccTree":"شجرة الحسابات",
 "GlManual":"قيود يدوية",
 "TransferStorage":"تحويل مخزني",
-"StorageOpenBalance":"ارصدة افتتاحية للاصناف",
+"StorageOpenBalance":"ارصدة افتتاحية للمخزون",
 "AllSaleInvoices":"فواتير البيع",
 "UpdateSaleInvoice":"تعديل فاتورة البيع",
 "AllBuyInvoices":"فواتير المشتريات",
@@ -98,19 +120,20 @@
 },
 
 "Login":{
-"EnterLogin":"دخول",
+"EnterLogin":"تسجيل الدخول",
 "Password":"كلمة المرور",
 "Login":"تسجيل الدخول",
 "UserName":"اسم المستخدم",
 "EnterUserName":"ادخل اسم المستخدم",
 "EnterEmail":"ادخل البريد الالكتروني",
 "EnterPassword":"ادخل كلمة المرور",
-"PasswordSmall":"كلمة المرور 9 حروف علي الاقل"
+"PasswordSmall":"كلمة المرور 9 حروف علي الاقل",
+"EnterBranch":"اختر الفرع"
 },
 
 "Menu":{
 "Supplier":" المورد",
-"ItemsGroup":"مجموعة الاصناف",
+"ItemsGroup":"مجموعة المنتجات",
 "CostCenter":"مركز التكلفة",
 "Client":" العملاء",
 "UploadDataExcel":"رفع البيانات اكسيل",
@@ -121,9 +144,9 @@
 "RevenuesTransaction":"الايرادات",
 "PartnersTransaction":"حساب الجاري",
 "ScaleSettings":"اعدادات الميزان",
-"BankAccountTransaction":"سجل حركات البنك",
+"BankAccountTransaction":"تقرير حركات البنك",
 "Partners":"الشركاء",
-"TreasuryTransaction":"سجل حركات الخزنة",
+"TreasuryTransaction":"تقرير حركات الخزنة",
 "ProofOfExpenses":"اثبات المصروفات",
 "BalanceItemBranch":"ارصدة المنتجات في الفروع",
 "ProductPricing":"تسعير المنتجات",
@@ -145,7 +168,7 @@
 "ManageItems":" ادارة المنتجات",
 "SaleInvoice":"فاتورة بيع",
 "BuyInvoice":"فاتورة شراء",
-"Items":"اضافة منتجات",
+"Items":" المنتجات",
 "AllItems":" المنتجات",
 "ManageStore":"ادارة المخازن",
 "Storage":"المخازن",
@@ -153,14 +176,14 @@
 "BankAccounts":" الحسابات البنكية",
 "Main":" الرئيسية ",
 "Settings":"الاعدادات  ",
-"ItemTransaction":" حركات الاصناف ",
+"ItemTransaction":" حركات المنتجات ",
 "Treasury":"الخزن",
 "FinanceSettings":"الاعدادات المالية",
 "AccTree":"شجرة الحسابات",
 "AddGeneralLedger":"اضافة قيود يدوية",
 "TransferStorage":"تحويل مخزني",
 "AllTransferStorage":"التحويلات المخزنية",
-"StorageOpenBalance":"ارصدة افتاحية للاصناف",
+"StorageOpenBalance":"ارصدة افتاحية للمخزون",
 "AllSaleInvoices":"فواتير البيع",
 "AllBuyInvoice":"فواتير المشتريات",
 "AllGeneralLedger":"القيود اليدوية",
@@ -201,7 +224,7 @@
   "AreYouSure":"هل انت متاكد ؟",
   "Sure":"تاكيد",
   "Close":"الغاء",
-  "Save":"اتمام",
+  "Save":"حفظ",
   "Send":"حفظ",
   "Update":"تعديل",
   "Delete":"حذف",
@@ -235,8 +258,12 @@
 
 "Show":{
     "NotPrevious":"ليس هناك بيانات سابقة",
+
+    "UpdateModelAnother":"تم التعديل علي هذة البيانات من قبل شخص اخر من فضلك اعد تحديث البيانات",
+    "DeleteModelAnother":"تم حذف  هذة البيانات من قبل شخص اخر من فضلك ",
     "UpdateAnother":"تم التعديل علي هذة الصفحة من قبل شخص اخر من فضلك اعد تحديث الصفحة",
     "DeleteAnother":"تم حذف  هذة الصفحة من قبل شخص اخر من فضلك  انتقل الي صفحة اخري",
+
     "InfoDelete":"تم حذف ",
     "InfoUpdate":"تم تعديل ",
     "ErrorNumberOnly":"ارقام فقط",
@@ -248,11 +275,15 @@
 },
 
 "Table":{
+  "BranchName":"الفرع",
+  "Units":"الوحدات",
+  "No":"العدد",
+  "File":"الملف",
   "TransferredBalance":"الرصيد المنقول",
   "ClosingBalance":"الرصيد الختامي",
   "DuringPeriod":"خلال المدة",
   "FirstPeriod":"اول المدة",
-  "ProductNo":"عدد الاصناف",
+  "ProductNo":"عدد المنتجات",
   "Unit":"الوحدة",
   "ShowDetails":"عرض التفاصيل",
   "In":"اضافة",
@@ -327,7 +358,7 @@
     "Quantity":"الكمية",
     "Total":"الاجمالي",
     "Storage":"المخزن",
-    "DocNo":"رقم المستند",
+    "DocNo":"مسلسل",
     "DocType":" المستند ",
     "QuntityCumulative":"الكمية التراكمية",
     "TotalCumulative":"الاجمالي التراكمية",
@@ -348,7 +379,7 @@
     "DocDate":"التاريخ",
     "Details":"التفاصيل",
     "TotalDrCr":"اجمالي الحساب مدين ودائن",
-    "Factor":"المعامل",
+    "Factor":"عدد او كمية الوحدات",
     "NameDoc":"اسم الحركة",
     "DocCredit":"دائن",
     "DocDebit":"مدين",
@@ -363,7 +394,7 @@
     "RoleName":"الصلاحية",
     "Branch":"الفرع",
     "Employee":"الموظف",
-    "ItemGroup":"مجموعة الاصناف",
+    "ItemGroup":"مجموعة المنتجات",
     "Item":"المنتج",
     "ItemUnit":"وحدة النتج",
     "Visa":"فيزا",
@@ -421,11 +452,11 @@
   "Vat":"الضريبة",
   "NetTotal":"الصافي",
   "ChooseProduct":"اختر المنتج ",
-  "TotalInvoice":"اجمالي المبيعات",
+  "TotalInvoice":"اجمالي الفاتورة",
   "TotalDiscount":"اجمالي الخصم",
   "TotalVat":"اجمالي الضريبة",
   "TotalAfterVat":"الصافي المستحق",
-  "CompletedSale":"اتمام البيع ",
+  "CompletedSale":" حفظ ",
   "PayBIll":"سداد الفاتورة  ",
   "PamentType":"نوع الدفع ",
   "Cash":"كاش",
@@ -482,8 +513,8 @@
   "ChooseItem":"اختر المنتج",
   "AddItem":"اضافة منتج",
   "AllItems":" المنتجات",
-  "Item":" الاصناف",
-  "ItemInfo":"بيانات الاصناف",
+  "Item":" المنتجات",
+  "ItemInfo":"بيانات المنتجات",
   "ItemUnit":"الوحدات",
   "ItemNameAR":"اسم المنتج ",
   "ItemType":"نوع المنتج",
@@ -496,7 +527,7 @@
   "Store":"مخزني",
   "Accounting":"محاسبي",
   "Market":"متجر",
-  "ItemGroup":"مجموعة الاصناف",
+  "ItemGroup":"مجموعة المنتجات",
   "ChooseGroup":"اختر المجموعة",
   "ItemCode":"كود المنتج",
   "ItemVat":"ضريبة القيمة المضافة",
@@ -505,6 +536,7 @@
   "ItemGroupNameAr":"اسم المجموعة ",
   "ItemGroupNameCode":"  كود المجموعة",
   "ItemGroupNamePhoto":"صورة المجموعة",
+  "Units":"الوحدات",
   "Error":{
     "CannotBuyProductService": "الخدمات لا تشتري تعامل كمصروف",
     "CannotReturnProductService": "لا يتم ارجاع الخدمة تعامل كمصروف",
@@ -544,7 +576,7 @@
 "TotalOutQty":"اجمالي الكمية المنصرفة",
 "TotalOutPrice":" سعر الكمية المنصرفة",
 "TotalOut":"اجمالي  قيمة المنصرف",
-"ItemTransaction":" حركات الاصناف ",
+"ItemTransaction":" حركات المنتجات ",
 "FromDate":"من تاريخ",
 "ToDate":"الي تاريخ",
 "StoreId":"المخزن",
@@ -575,13 +607,14 @@
 "Gl":" قيد    ",
 "InitGl":" قيد افتتاحي   ",
 "TransferBranches":"التحويل بين الفروع",
-"ItemBalance":" ارصد افتتاحية للاصناف    ",
+"ItemBalance":" ارصد افتتاحية للمخزون    ",
 "StoreAdjustmet":" تسوية مخزنية      ",
 "CollectionInvoice":" تحصيل فاتورة       ",
 "CreateInitGlRecept":" قيد افتتاحي",
 "BadDepts":"ديون معدومة"
 },
 "Bank":{
+  "Banks":" البنوك ",
   "AddBank":"اضافة بنك",
   "BankNameAr":"اسم البنك ",
   "BankCode":"كود البنك ",
@@ -612,7 +645,7 @@
 "ReturnAmount":"قيمة المرتجع",
 "InvoiceExpenses":"مصاريف مشتريات",
 "VatNumber":"الرقم الضريبي",
-"CompletedBuy":"اتمام الشراء",
+"CompletedBuy":"حفظ",
 "Units":"وحدة المنتج",
 "InvoiceCollected":"تم تحصيل قيمة الاجل وتحصيل قيمة الفاتورة كاملة",
 "AllBuyInvoices":"فواتير المشتريات",
@@ -645,7 +678,7 @@
 "TotalDiscount":"اجمالي الخصم",
 "TotalVat":"اجمالي الضريبة",
 "TotalAfterVat":"الصافي المستحق",
-"CompletedSale":"اتمام البيع ",
+"CompletedSale":"حفظ ",
 "PayBIll":"سداد الفاتورة  ",
 "PamentType":"نوع ادفع ",
 "Cash":"كاش",
@@ -685,6 +718,7 @@
 }
 },
 "Storage":{
+  "Storage":"المخازن",
 "AddStorage":"اضافة مخزن",
 "StorageNameAr":" اسم المخزن ",
 "StorageCode":"كود المخزن",
@@ -704,6 +738,9 @@
   }
 },
 "FinanceSettings":{
+  "UnNormalStockDamagedId":"تالف غير طبيعي",
+  "NormalStockDamagedId":"تالف طبيعي",
+  "RevenueServiceId":"ايراد خدمات",
   "CostSaleInvetoryID":"ت . البضاعة",
   "CreditTaxesID":"حساب ضرائب دائنة",
   "EmployeeCustodyID":"حساب العهد والذمم",
@@ -759,6 +796,13 @@
   }
 },
 "AccTree":{
+  "Select":"اختر",
+  "Asoul":"اصول",
+  "Khsom":"خصوم",
+  "Milkia":"حقوق ملكية",
+  "Erad":"ايراد",
+  "Masrof":"مصروف",
+  
   "IsFinancial":"يظهر بالمركز المالي",
   "Debit":"مدين",
   "Credit":"دائن",
@@ -778,6 +822,7 @@
 "ChooseParent":"اختر الحساب",
 "WithoutParent":"بدون اب",
 "Error":{
+  "AccCode":"كود الحساب",
   "InIncomeStatement":"اختر يضاف او يخصم",
   "Poses":"اختر طبيعة الحساب",
   "Level":"المستوي",
@@ -793,7 +838,7 @@
   "AllGlManual":" القيود اليدوية  ",
   "GlManual":" قيد يدوي  ",
   "UpdateGlManual":"تعديل القيد اليدوي    ",
-  "DocNo":"رقم المستند",
+  "DocNo":" مسلسل",
   "DocDate":"التاريخ",
   "Code":"الكود يدوي",
   "DocsStatus":"حاله القيد",
@@ -867,8 +912,8 @@
   }
 },
 "StorageOpenBalance":{
-  "AllStorageOpen":"الارصدة الافتتاحية للاصناف",
-  "StorageOpenBalance":"ارصدة افتتاحية للاصناف",
+  "AllStorageOpen":"الارصدة الافتتاحية للمخزون",
+  "StorageOpenBalance":"ارصدة افتتاحية للمخزون",
   "UpdateStorageOpen":"تعديل الرصيد الافتتاحي  ",
   "StorageNameAr":" اسم المخزن ",
   "StorageCode":" كود المخزن ",
@@ -1019,7 +1064,7 @@
   "Status":"الحاله",
   "Treasury":"الخزنة",
   "ChooseTreasury":"اختر الخزنة",
-  "CompletedReturnSale":"اتمام الارجاع",
+  "CompletedReturnSale":"حفظ",
   "LastReturnQuantity":"كمية مرجعه سابقا",
   "Units":"وحدة المنتج",
   "SaleInvoiceNo":"فاتورة بيع رقم ",
@@ -1044,7 +1089,7 @@
   "Vat":"الضريبة",
   "NetTotal":"الصافي",
   "ReturnQuantity":"كمية مرتجع",
-  "CompletedReturn":"اتمام الارجاع ",
+  "CompletedReturn":"حفظ ",
   "PamentType":"نوع ادفع ",
   "Cash":"كاش",
   "Visa":"فيزا",
@@ -1092,6 +1137,8 @@
 
 },
 "ClientAccount":{
+  "StockDamaged":"عجز وتالف المخزون",
+  "SalesDiscount":"خصم نقدي",
   "BuyInvoice":" شراء",
   "ReturnBuyInvoice":"مرتجع  شراء",
   "Transfer":" تحويل مخزني",
@@ -1155,7 +1202,7 @@
   "TotalDiscount":"اجمالي الخصم",
   "TotalVat":"اجمالي الضريبة",
   "TotalAfterVat":"الصافي المستحق",
-  "CompletedSale":"اتمام البيع ",
+  "CompletedSale":"حفظ ",
   "PayBIll":"سداد الفاتورة  ",
   "PamentType":"نوع ادفع ",
   "Cash":"كاش",
@@ -1226,7 +1273,7 @@
 "TotalDiscount":"اجمالي الخصم",
 "TotalVat":"اجمالي الضريبة",
 "TotalAfterVat":"الصافي المستحق",
-"CompletedSale":"اتمام البيع ",
+"CompletedSale":"حفظ ",
 "PayBIll":"سداد الفاتورة  ",
 "PamentType":"نوع ادفع ",
 "Cash":"كاش",
@@ -1263,10 +1310,10 @@
 },
 "ReturnBuyInvoice":{
   "Units":"وحدة المنتج",
-  "CompletedReturnBuy":"اتمام الارجاع",
+  "CompletedReturnBuy":"حفظ",
   "LastReturnQuantity":"كمية مرجعه سابقا",
   "BuyInvoiceNo":"فاتورة شراء رقم",
-  "CompletedReturn":"اتمام الارجاع ",
+  "CompletedReturn":"حفظ ",
   "ChooseInvoice":"اختر الفاتورة",
   "SupplierInvoices":"فواتير المورد",
   "ReturnBuyInvoice":"ارجاع فاتورة شراء",
@@ -1300,7 +1347,7 @@
   "TotalDiscount":"اجمالي الخصم",
   "TotalVat":"اجمالي الضريبة",
   "TotalAfterVat":"الصافي المستحق",
-  "CompletedSale":"اتمام البيع ",
+  "CompletedSale":"حفظ ",
   "PayBIll":"سداد الفاتورة  ",
   "PamentType":"نوع ادفع ",
   "Cash":"كاش",
@@ -1485,21 +1532,12 @@
 "OldPassword":"كلمة المرور القديمة",
 "NewPassword":"كلمة المرور الجديدة",
 "NotMatch":"كلمتا المرور غير متطابقين",
-"Error":{
-  "NameAr":"ادخل الاسم  ",
-  "UserName":"ادخل اسم المستخدم",
-  "UserNameNoSpace":"اسم المستخدم بدون مسافات",
-  "Gender":" اختر الجنس",
-  "Role":"الصلاحية",
-  "BranchId":"اختر الفرع",
-  "Password":"ادخل كلمة المرور",
-  "Code":"ادخل الكود",
-  "Email":"ادخل البريد الالكتروني",
-  "OldPassword":"  ادخل كلمة المرور القديمة",
-  "Diget":" يجب الا قتل كلمة المرور عن 6 احرف "
-}
+"Block":"حظر"
 },
 "RoleGroup":{
+  "SectionName":"اسم القسم",
+  "ActionName":"اسم الاكشن",
+  "ScreenName":"اسم الشاشة",
   "UpateRoleGroup":"تعديل الصلاحية",
   "RoleGroup":"الصلاحيات",
   "AddRoleGroup":"اضافة صلاحية",
@@ -1542,13 +1580,15 @@
 },
 "SalesReport":{
   "SalesReport":"تقارير المبيعات",
+  "ReportTreasury":" الخزنة",
+  "ReportBankAcount":"الحساب البنكي",
   "ReportDetailed":"تقرير تفصيلي",
   "ReportItemGroup":"تقرير المجموعات ",
   "ReportItem":"تقرير المنتجات",
   "ReportItemUnit":"تقرير الوحدات ",
   "FromDate":"من تاريخ",
   "ToDate":"الي تاريخ",
-  "ItemGroup":"مجموعة الاصناف",
+  "ItemGroup":"مجموعة المنتجات",
   "ChooseGroup":"اختر المجموعة",
   "ChooseItem":"اختر المنتج",
   "Item":"المنتج",
@@ -1572,7 +1612,7 @@
   "TotalCash":"اجمالي النقدي",
   "TotalVisa":"اجمالي الفيزا",
   "TotalDebt":"اجمالي الاجل",
-  "TotalSale":"اجمالي المبيعات قبل الضريبة",
+  "TotalSale":"اجمالي المبيعات  ",
   "TotalDiscount":"اجمالي الخصم",
   "TotalVatAmount":"اجمالي الضريبة",
   "TotalAfterVat":"اجمالي المبيعات بعد الضريبة",
@@ -1581,6 +1621,8 @@
 "BuyReport":{
   "ChooseSupplier":"اختر المورد ",
   "Supplier":" المورد",
+  "ReportTreasury":" الخزنة",
+  "ReportBankAcount":"الحساب البنكي",
   "ReportSupplier":"تقارير المورد",
   "BuyReport":"تقارير المشتريات",
   "ReportDetailed":"تقرير تفصيلي",
@@ -1589,7 +1631,7 @@
   "ReportItemUnit":"تقرير الوحدات ",
   "FromDate":"من تاريخ",
   "ToDate":"الي تاريخ",
-  "ItemGroup":"مجموعة الاصناف",
+  "ItemGroup":"مجموعة المنتجات",
   "ChooseGroup":"اختر المجموعة",
   "ChooseItem":"اختر المنتج",
   "Item":"المنتج",
@@ -1613,7 +1655,7 @@
   "TotalCash":"اجمالي النقدي",
   "TotalVisa":"اجمالي الفيزا",
   "TotalDebt":"اجمالي الاجل",
-  "TotalSale":"اجمالي المشتريات قبل الضريبة",
+  "TotalSale":"اجمالي المشتريات  ",
   "TotalDiscount":"اجمالي الخصم",
   "TotalVatAmount":"اجمالي الضريبة",
   "TotalAfterVat":"اجمالي المشتريات بعد الضريبة",
@@ -1633,7 +1675,7 @@
   "GlReceptDetails":"تعديل الرصيد الافتتاحي",
   "AllInitGlRecept":"الارصدة الافتتاحيه",
   "ChooseType":"اختر النوع",
-  "StorageOpen":"ارصدة افتتاحية للاصناف",
+  "StorageOpen":"ارصدة افتتاحية للمخزون",
   "UpdateInitGlRecept":"تعديل الرصيد الافتتاحي",
   "InitGlRecept":"ارصدة افتتاحية",
   "DocNo":"مسلسل",
@@ -1680,7 +1722,8 @@
 "CreateInitGlRecept":{
   "CreateInitGlRecept":"انشاء قيد افتتاحي",
   "Cancle":"الغاء القيد",
-  "Storage":"حساب البضاعة"
+  "Storage":"حساب البضاعة",
+  "WA":"التكلفة"
 },
 "StatementOfFinancial":{
   "StatementOfFinancial":"مركز مالي",
@@ -1693,6 +1736,7 @@
   "IncomeStatement":"قائمة الدخل"
 },
 "DefaultSettings":{
+  "Main":"اساسي",
   "DateTimeReadOnly":"امكانية تعديل التاريخ",
   "SystemTouch":"وضع تاتش اسكرين",
   "HideColumnDiscount":"اخفاء عمود الخصم من الشاشات",
@@ -1748,7 +1792,7 @@
 },
 "Interval":{
   "ClosedYear":"معلومة سنة مغلقة",
-  "Interval":"الفترات ",
+  "Interval":"الفترات المحاسبية",
   "Error":{
     "FromDate":"ادخل تاريخ البداية ",
     "ToDate":"ادخل تاريخ النهاية"
@@ -1762,6 +1806,7 @@
 "CostCenterTo":"مركز تكلفه محول اليه",
 "CostCenterFrom":"مركز تكلفه محول منه",
 "Error":{
+  "SameBranch":"لا يمكن التحويل الي نفس الفرع",
   "EnterFromBranchId":"اختر الفرع المحول منه اولا",
   "EnterToBranchId":"اختر الفرع المحول اليه",
   "FromStoreId":" اختر المخزن المحول منه",
@@ -1787,7 +1832,7 @@
   "ProofOfExpenses":"اثبات المصروفات"
 },
 "BalanceItemBranch":{
-  "BalanceItemBranch":"ارصدة المنتجات في الفروع",
+  "BalanceItemBranch":"رصيد المنتج  في الفروع",
   "Branch":"الفرع",
   "ChooseBranch":"اختر الفرع",
   "Store":"المخزن",
@@ -1799,18 +1844,18 @@
   }
 },
 "TreasuryTransaction":{
-  "TreasuryTransaction":"سجل حركات الخزنة",
-  "InMony":"داخل",
-  "OutMony":"خارج"
+  "TreasuryTransaction":"تقرير حركات الخزنة",
+  "InMony":"اضافة",
+  "OutMony":"صرف"
 },
 "BankAccountTransaction":{
-  "BankAccountTransaction":"سجل حركات البنك"
+  "BankAccountTransaction":"تقرير حركات البنك"
 },
 "FileName":{
   "Supplier":" الموردين",
   "CostCenter":"مركز التكلفة",
   "Client":" العملاء",
-  "ItemGroup":"مجموعات الاصناف",
+  "ItemGroup":"مجموعات المنتجات",
   "AccTree":"دليل الحسابات",
   "Debtor":"مدين",
   "Creditor":"دائن",
@@ -1828,7 +1873,7 @@
   "ReturnBuy":"مرتجع شراء",
   "Products":"المنتجات",
   "TransferStorage":"تحويل مخزني",
-  "ItemTransaction":" حركات الاصناف ",
+  "ItemTransaction":" حركات المنتجات ",
   "InventorySettlement":"تسوية مخزنية",
   "TransferBranches":"التحويل بين الفروع",
   "TreasuryIn":"ايصالات استلام",
@@ -1842,6 +1887,8 @@
   "Partners":"الشركاء",
   "Employee":"الشريك",
   "ChooseEmployee":"اختر الشريك",
+  "Male":"مذكر",
+  "Female":"مؤنث",
   "Rate":"النسبه",
   "Error":{
     "Rate":"ادخل النسبه "
@@ -1874,6 +1921,23 @@
 },
 "UploadDataExcel":{
   "UploadDataExcel":"رفع البيانات اكسيل"
+},
+"ResetProductWA":{
+  "ResetProductWA":"اعادة ضبط متوسط التكلفة"
+},
+"CashDisount":{
+  "CashDisount":"خصم نقدي للعملاء"
+},
+"StockDamaged":{
+  "StockDamaged":"عجز وتالف المخزون",
+  "Normal":"طبيعي",
+  "UnNormal":"غير طبيعي",
+  "Reason1":"تحميل علي الفرع",
+  "Reason2":"تحميل علي موظف",
+  "TotalDamaged":"اجمالي مبلغ التالف",
+  "StockDamagedType":"اختر نوع التالف",
+  "ReasonStockDamagedType":"اختر من يتحمل التالف",
+  "ErrorTotal":"خطا بالاجمالي"
 }
 
 }

@@ -4,6 +4,19 @@
 
 "DIR": "ltr",
 "Name":"Name",
+"Choose":"Choose",
+"Photo":"Photo",
+"TotalInvoice":"Total Invoice",
+"TotalDiscount":"Total Discount",
+"TotalVat":"Total VatAmount",
+"TotalAfterVat":"Total After Vat",
+"ColumnsSelected":"Columns Selected",
+"NetThamBranch":"Net Balance Tham Branch",
+"NetOtherBranch":"Net Balance Other Branch",
+"BranchName":"Branch",
+"UserName":"User Name",
+"RoleName":"Role Name",
+"ProductCount":"Product Count",
 
 "PageTitle":{
   "ProofOfExpenses":"Proof Of Expenses",
@@ -80,11 +93,12 @@
   "EnterEmail":"Enter Email",
   "EnterPassword":"Enter Email",
   "PasswordSmall":"Password 9 Letter ",
-  "EnterLogin":"EnterLogin",
+  "EnterLogin":"Enter Login",
   "Password":"Password ",
   "Login":"Login",
   "UserName":"UserName",
-  "EnterUserName":"Enter UserName"
+  "EnterUserName":"Enter UserName",
+  "EnterBranch":"Enter Branch"
 },
 "navBar":{
   "About":"About",
@@ -234,8 +248,14 @@
 
 "Show":{
     "NotPrevious":"Not Data Previous",
+
+    "UpdateModelAnother":"This Data Has Been Modified By Someone Else, Please Refresh The Page",
+    "DeleteModelAnother":"This Data Has Been Deleted By Someone Else",
+
     "UpdateAnother":"This Page Has Been Modified By Someone Else, Please Refresh The Page",
     "DeleteAnother":"This Page Has Been Deleted By Someone Else, Please Go Other Page",
+
+
     "InfoDelete":"Info Delete",
     "InfoUpdate":"Info Update",
     "ErrorNumberOnly":"Number Only",
@@ -247,6 +267,10 @@
 },
 
 "Table":{
+  "BranchName":"Branch",
+  "Units":"Units",
+  "No":"No",
+  "File":"File",
 "TransferredBalance":"Transferred Balance",
 "ClosingBalance":"Closing Balance",
 "FirstPeriod":"First Period",
@@ -468,6 +492,7 @@
   "Light":"Light",
   "Front":"Front",
   "Back":"Back",
+  "Units":"Units",
   "ProductAccessories":"Product Accessories",
     "ProductStorage":"Product Storage",
     "ProductService":"Product Service",
@@ -571,6 +596,7 @@
 "BadDepts":"BadDepts"
 },
 "Bank":{
+  "Banks":" Banks ",
   "AddBank":"Add Bank ",
   "BankNameAr":"Bank Name",
   "BankCode":"Bank Code  ",
@@ -676,6 +702,7 @@
 },
 
 "Storage":{
+  "Storage":"Storage",
   "AddStorage":"Add Storage ",
   "StorageNameAr":"Storage Name",
   "StorageCode":"Storage Code ",
@@ -695,6 +722,9 @@
   }
 },
 "FinanceSettings":{
+  "UnNormalStockDamagedId":"UnNormal Stock Damaged",
+  "NormalStockDamagedId":"Normal Stock Damaged",
+  "RevenueServiceId":"Revenue Service",
   "CostSaleInvetoryID":"Cost Sale Invetory",
   "CreditTaxesID":"Credit Taxes",
   "EmployeeCustodyID":"Employee Custody",
@@ -751,6 +781,13 @@
 
 },
 "AccTree":{
+  "Select":"Select",
+  "Asoul":"Asoul",
+  "Khsom":"Khsom",
+  "Milkia":"Milkia",
+  "Erad":"Erad",
+  "Masrof":"Masrof",
+
 "IsFinancial":"In Financial",
 "Debit":"Debit",
 "Credit":"Credit",
@@ -768,6 +805,7 @@
 "ChooseParent":"Choose Parent Account ",
 "WithoutParent":"Without Parent",
 "Error":{
+  "AccCode":"Account Code",
   "InIncomeStatement":"Choose Income Or Expenses",
 
   "Poses":"Choose Nature OF Account",
@@ -1079,6 +1117,8 @@
   }
 },
 "ClientAccount":{
+  "StockDamaged":"Stock Damaged",
+  "SalesDiscount":"Sales Discount",
   "BuyInvoice":"BuyInvoice",
   "ReturnBuyInvoice":"Return BuyInvoice",
   "Transfer":" Transfer ",
@@ -1454,6 +1494,7 @@
 }
 },
 "Employee":{
+"Block":"Block",
 "Employee":"Employees",
 "Branch":"Branch",
 "ChooseBranch":"Choose Branch",
@@ -1470,22 +1511,12 @@
 "Email":" Email ",
 "OldPassword":"Old Password",
 "NewPassword":"New Password",
-"NotMatch":"Password NotMatch",
-"Error":{
-  "UserNameNoSpace":"UserName No Space",
-  "NameAr":"Enter Name",
-  "UserName":"Enter UserName",
-  "Gender":"Enter Gender",
-  "Role":"Enter Role",
-  "BranchId":"Enter Branch",
-  "Password":"Enter Password",
-  "Code":"Enter Code",
-  "Email":"Enter Email",
-  "OldPassword":"Enter Old Password",
-  "Diget":"Min Length 9 "
-}
+"NotMatch":"Password NotMatch"
 },
 "RoleGroup":{
+"SectionName":"Section Name",
+"ScreenName":"Screen Name",
+"ActionName":"Action Name",
 "SelectScreenFirst":"Select Role First",
 "UpateRoleGroup":"Upate RoleGroup",
 "RoleGroup":"Role Group",
@@ -1528,6 +1559,8 @@
 },
 "SalesReport":{
   "SalesReport":"Sales Report",
+  "ReportTreasury":" Report Treasury",
+  "ReportBankAcount":"Report BankAcount",
   "ReportDetailed":"Report Detailed",
   "ReportItemGroup":"Report Product Group",
   "ReportItem":"Report Product",
@@ -1565,6 +1598,8 @@
 },
 "BuyReport":{
   "BuyReport":"Buy Report",
+  "ReportTreasury":" Report Treasury",
+  "ReportBankAcount":"Report BankAcount",
   "ChooseSupplier":" Choose Supplier",
   "Supplier":"Supplier ",
   "ReportSupplier":"Report Supplier",
@@ -1665,7 +1700,8 @@
 "CreateInitGlRecept":{
   "CreateInitGlRecept":"Create Init Gl Recept",
   "Cancle":"Cancle Init Gl Recept",
-  "Storage":"Inventory"
+  "Storage":"Inventory",
+  "WA":"Cost"
 },
 "StatementOfFinancial":{
   "StatementOfFinancial":"Statement Of Financial",
@@ -1678,6 +1714,7 @@
 "IncomeStatement":"Income Statement"
 },
 "DefaultSettings":{
+  "Main":"Main",
   "DateTimeReadOnly":"Can Edite DateTime",
   "SystemTouch":"System Touch",
   "HideColumnDiscount":"Hide Column Discount",
@@ -1747,6 +1784,7 @@
 "CostCenterTo":"CostCenter To",
 "CostCenterFrom":"CostCenter From",
 "Error":{
+  "SameBranch":"Can't Transer Same Branch",
   "EnterFromBranchId":"Enter From Branch",
   "EnterToBranchId":"Enter To Branch",
   "FromStoreId":"Enter From Store",
@@ -1860,6 +1898,23 @@
 },
 "UploadDataExcel":{
   "UploadDataExcel":"Upload Data Excel"
+},
+"ResetProductWA":{
+  "ResetProductWA":"Reset Product WA"
+},
+"CashDisount":{
+  "CashDisount":"Cash Disount"
+},
+"StockDamaged":{
+  "StockDamaged":"Stock Damaged",
+  "Normal":"Normal",
+  "UnNormal":"Un Normal",
+  "Reason1":"Branch Bears The Reason",
+  "Reason2":"Employee Is Responsible For The Reason",
+  "TotalDamaged":"Total Damaged",
+  "StockDamagedType":"Stock Damaged Type",
+  "ReasonStockDamagedType":"Reason Stock Damaged",
+  "ErrorTotal":"Error Total"
 }
 
 
