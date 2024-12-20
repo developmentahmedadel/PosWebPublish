@@ -1,7 +1,9 @@
 {
 
 "UserNotFoundPleaseLogin": "User NotFound Please Login",
-
+"New":"New",
+"Tree":"Tree",
+"Refresh":"Refresh",
 "DIR": "ltr",
 "Name":"Name",
 "Choose":"Choose",
@@ -267,6 +269,9 @@
 },
 
 "Table":{
+  "TotalDiscRate":"Total Disc Rate",
+  "TotalVatRate":"Total Vat Rate",
+  "TotalInvoiceAfterDisc":"Total Invoice After Disc",
   "BranchName":"Branch",
   "Units":"Units",
   "No":"No",
@@ -399,6 +404,8 @@
   },
 
 "SaleInvoice":{
+  "TotalPriceAfterDiscount":"After Discount",
+  "DiscountRate":"Discount Rate",
   "AllHold":"All  Holded Invoices",
   "Group":"Group",
   "Delivery":"Delivery",
@@ -454,6 +461,7 @@
     "ChooseBank":"Choose Bank",
     "VatNumber":"Vat Number",
     "Error":{
+      "ErrorDiscountRate":"Error Discount Rate",
       "ProductExist":"Product Exist Invoice",
       "ErrorTotal":"Error Total",
       "ErrorNetRow":"Error Net Total Row",
@@ -489,6 +497,7 @@
 
 
 "Item":{
+  "DefaultUnit":"Default Unit",
   "Light":"Light",
   "Front":"Front",
   "Back":"Back",
@@ -1715,9 +1724,12 @@
 },
 "DefaultSettings":{
   "Main":"Main",
+  "HideSorage":"Hide Sorage",
+  "HidePersonBalanceBranch":"Hide Person Balance Branch",
   "DateTimeReadOnly":"Can Edite DateTime",
   "SystemTouch":"System Touch",
   "HideColumnDiscount":"Hide Column Discount",
+  "HideColumnDiscountRate":"Hide Column Discount Rate",
   "ReturnSale":"Return Sale",
   "ReturnBuy":"Return Buy",
   "DefaultSettings":"Default Settings",
@@ -1876,12 +1888,11 @@
 },
 "ScaleSettings":{
   "ScaleSettings":"Scale Settings",
+  "Name":" Name",
   "ZaraNumber":"Zara Number",
-  "BarCodeSize":"BarCode Size",
-  "Error":{
-    "ZaraNumber":"Enter Zara Number",
-    "BarCodeSize":"Enter BarCode Size"
-  }
+  "BarCodeLength":"BarCode Length",
+  "ProductCodeLength":"ProductCode Length",
+  "WeightCodeLength":"WeightCode Length"
 },
 "ExpensesTransaction":{
   "ExpensesTransaction":"Expenses Transaction"

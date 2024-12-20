@@ -1,7 +1,9 @@
 {
 
 "UserNotFoundPleaseLogin": "خطا في التعرف علي المستخدم",
-
+"New":" جديد",
+"Tree":"الشجرة",
+"Refresh":" تحديث",
 "DIR": "rtl",
 "Name":"الاسم",
 "Choose":"اختر",
@@ -20,7 +22,13 @@
 
 
 
-
+"Dashboard":{
+  "SaleInvoices":"فواتير المبيعات",
+  "TotalSaleInvoice":"اجمالي المبيعات",
+  "BuyInvoices":"فواتير المشتريات",
+  "TotalBuyInvoice":"اجمالي المشتريات",
+  "Products":"المنتجات"
+},
 
 
 
@@ -277,6 +285,9 @@
 "Table":{
   "BranchName":"الفرع",
   "Units":"الوحدات",
+  "TotalDiscRate":"نسبة الخصم",
+  "TotalVatRate":"نسبة الضريبة",
+  "TotalInvoiceAfterDisc":" بعد الخصم",
   "No":"العدد",
   "File":"الملف",
   "TransferredBalance":"الرصيد المنقول",
@@ -301,7 +312,7 @@
   "BalanceNow":"الرصيد الفعلي بالواحدة",
   "Status":"الحاله",
     "BalanceDaftare":"الرصيد الدفتري بالواحدة",
-    "BuyInvoiceReturnNo":"مرتجع فاتورة شراء رقم",
+    "BuyInvoiceReturnNo":"فاتورة شراء رقم",
     "SearchItem":"البحث عن المنتج بالاسم او الكود",
     "FromDate":"من تاريخ",
     "ToDate":"الي تاريخ",
@@ -387,7 +398,7 @@
     "TotalDebit":"اجمالي مدين",
     "TotalCredit":"اجمالي دائن",
     "Net":"الصافي",
-    "SaleInvoiceReturnNo":"مرتجع فاتورة بيع رقم",
+    "SaleInvoiceReturnNo":"فاتورة بيع رقم",
     "UserName":"اسم المستخدم",
     "Gender":"الجنس",
     "Email":" البريد الالكتروني",
@@ -411,6 +422,8 @@
 },
 
 "SaleInvoice":{
+  "TotalPriceAfterDiscount":"اجمالي بعد الخصم",
+  "DiscountRate":"نسبة الخصم",
   "AllHold":"الفواتير المعلقه",
   "Group":"المجموعة",
   "Delivery":"دليفري",
@@ -466,6 +479,7 @@
   "ChooseBank":"اختر الحساب البنكي",
   "VatNumber":"الرقم الضريبي",
   "Error":{
+    "ErrorDiscountRate":"ادخل نسبة الخصم بشكل صحيح",
     "ProductExist":"المنتج موجود في الفاتورة",
     "ErrorTotal":"خطا بالاجمالي",
     "ErrorNetRow":"خطا في صافي المبلغ الصف ",
@@ -502,6 +516,7 @@
 
 
 "Item":{
+  "DefaultUnit":"الوحدة الافتراضية",
   "Light":"الاضاءة",
   "Front":"الامامية",
   "Back":"الخلفية",
@@ -521,7 +536,7 @@
   "ItemPlace":"مكان المنتج",
   "ItemPrice":"سعر ",
   "ItemQuantity":"كمية ",
-  "ItemFactor":"معامل",
+  "ItemFactor":"كمية",
   "ItemPhoto":"صور ",
   "Service":"خدمي",
   "Store":"مخزني",
@@ -1737,9 +1752,12 @@
 },
 "DefaultSettings":{
   "Main":"اساسي",
+  "HideSorage":"اخفاء المخزن من شاشة البيع",
+  "HidePersonBalanceBranch":"اخفاء رصيد الاشخاص في الفروع",
   "DateTimeReadOnly":"امكانية تعديل التاريخ",
   "SystemTouch":"وضع تاتش اسكرين",
   "HideColumnDiscount":"اخفاء عمود الخصم من الشاشات",
+  "HideColumnDiscountRate":"اخفاء عمود خصم نسبه من الشاشة",
   "ReturnSale":"مرتجع بيع",
   "ReturnBuy":"مرتجع شراء",
   "DefaultSettings":"اعداداتي الافتراضية",
@@ -1899,12 +1917,11 @@
 },
 "ScaleSettings":{
   "ScaleSettings":"اعدادات الميزان",
+  "Name":"الاسم",
   "ZaraNumber":"كود الميزان",
-  "BarCodeSize":"عدد باركود بعد كود الميزان",
-  "Error":{
-    "ZaraNumber":"ادخل كود الميزان",
-    "BarCodeSize":"ادخل عدد باركود بعد كود الميزان"
-  }
+  "BarCodeLength":"عدد باركود الميزان",
+  "ProductCodeLength":"عدد باركود المنتج",
+  "WeightCodeLength":"عدد باركود الوزن"
 },
 "ExpensesTransaction":{
   "ExpensesTransaction":"المصروفات"
