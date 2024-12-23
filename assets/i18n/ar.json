@@ -1,5 +1,5 @@
 {
-
+"CopySuccessfully":"تم نسخ بيانات الجدول بنجاح",
 "UserNotFoundPleaseLogin": "خطا في التعرف علي المستخدم",
 "New":" جديد",
 "Tree":"الشجرة",
@@ -1152,7 +1152,7 @@
 
 },
 "ClientAccount":{
-  "StockDamaged":"عجز وتالف المخزون",
+  "StockDamaged":" اهلاك المخزون",
   "SalesDiscount":"خصم نقدي",
   "BuyInvoice":" شراء",
   "ReturnBuyInvoice":"مرتجع  شراء",
@@ -1946,7 +1946,7 @@
   "CashDisount":"خصم نقدي للعملاء"
 },
 "StockDamaged":{
-  "StockDamaged":"عجز وتالف المخزون",
+  "StockDamaged":"اهلاك  المخزون",
   "Normal":"طبيعي",
   "UnNormal":"غير طبيعي",
   "Reason1":"تحميل علي الفرع",
