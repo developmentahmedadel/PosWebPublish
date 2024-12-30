@@ -422,6 +422,7 @@
 },
 
 "SaleInvoice":{
+  "Place":"المنفذ / المخزن / المكان",
   "TotalPriceAfterDiscount":"اجمالي بعد الخصم",
   "DiscountRate":"نسبة الخصم",
   "AllHold":"الفواتير المعلقه",

@@ -404,6 +404,7 @@
   },
 
 "SaleInvoice":{
+  "Place":"Place",
   "TotalPriceAfterDiscount":"After Discount",
   "DiscountRate":"Discount Rate",
   "AllHold":"All  Holded Invoices",
