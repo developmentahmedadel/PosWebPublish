@@ -2,6 +2,9 @@
 "CopySuccessfully":"Copy Successfully",
 "UserNotFoundPleaseLogin": "User NotFound Please Login",
 "New":"New",
+"Actions":"Actions",
+"Number":"Number",
+"Place":"Place",
 "Tree":"Tree",
 "Refresh":"Refresh",
 "DIR": "ltr",
@@ -1927,6 +1930,14 @@
   "StockDamagedType":"Stock Damaged Type",
   "ReasonStockDamagedType":"Reason Stock Damaged",
   "ErrorTotal":"Error Total"
+},
+"ProductRecipe":{
+  "ProductRecipe":"Product Recipe",
+  "WA":"Cost",
+  "Error":{
+    "EmptyCost":"Empty Cost",
+    "EmptyCostName":"Empty Cost Name"
+  }
 }
 
 

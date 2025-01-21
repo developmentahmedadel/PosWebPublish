@@ -2,6 +2,9 @@
 "CopySuccessfully":"تم نسخ بيانات الجدول بنجاح",
 "UserNotFoundPleaseLogin": "خطا في التعرف علي المستخدم",
 "New":" جديد",
+"Actions":"اجراءات",
+"Number":"رقم الصف",
+"Place":"المخزن",
 "Tree":"الشجرة",
 "Refresh":" تحديث",
 "DIR": "rtl",
@@ -13,8 +16,8 @@
 "TotalVat":"اجمالي الضريبة",
 "TotalAfterVat":"الصافي بعد الخصم والضريبة",
 "ColumnsSelected":"عدد الخانات المختارة",
-"NetThamBranch":"الرصيد في الفرع",
-"NetOtherBranch":"الرصيد في الفروع الاخري",
+"NetThamBranch":"رصيد  الفرع",
+"NetOtherBranch":"رصيد الفروع الاخري",
 "BranchName":"الفرع",
 "UserName":"المستخدم",
 "RoleName":"الصلاحية",
@@ -1956,6 +1959,16 @@
   "StockDamagedType":"اختر نوع التالف",
   "ReasonStockDamagedType":"اختر من يتحمل التالف",
   "ErrorTotal":"خطا بالاجمالي"
+},
+"ProductRecipe":{
+  "ProductRecipe":"كارت الصنف - ريسبي",
+  "WA":"التكلفة",
+  "Error":{
+    "StoreId":"اختر المخزن",
+    "ChooseItem":"اختر المنتج",
+    "EmptyCost":"ليس هناك تكاليف للحفظ",
+    "EmptyCostName":"ادخل اسم التكلفة"
+  }
 }
 
 }
