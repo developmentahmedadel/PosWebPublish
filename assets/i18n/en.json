@@ -229,7 +229,7 @@
     "Details":"Details",
     "CreatedDate":"Created Date",
     "CreatedByName":" Created By ",
-    "LastModifiedDate":"Last Modifie dDate",
+    "LastModifiedDate":"Last Modifie Date",
     "ModifyByName":"Modify By",
     "ModifyCount":"Modify Count",
     "Gl":"Gl",
@@ -272,6 +272,7 @@
 },
 
 "Table":{
+  "Photo":"Photo",
   "TotalDiscRate":"Total Disc Rate",
   "TotalVatRate":"Total Vat Rate",
   "TotalInvoiceAfterDisc":"Total Invoice After Disc",
@@ -1933,11 +1934,30 @@
 },
 "ProductRecipe":{
   "ProductRecipe":"Product Recipe",
+  "CreateRecipe":"Create Recipe",
+  "TotalDirectProduct":"Direct Product",
+  "TotalDirectSalary":"Direct Salary",
+  "TotalInDirectProduct":"In Direct Product",
+  "TotalInDirectSalary":"In Direct Salary",
+  "TotalInDirectOther":" OverHead",
+  "TotalPrice":" Total Cost ",
   "WA":"Cost",
+  "OpenToEdite":"Open To Edite",
   "Error":{
+    "EnterProductUnit":"Enter Product Unit",
     "EmptyCost":"Empty Cost",
-    "EmptyCostName":"Empty Cost Name"
+    "StoreId":" Choose Store",
+    "ChooseItem":"Choose Product",
+    "EnterCostCenter":"  Choose CostCenter",
+    "EnterQuantity":" Enter Quantity",
+    "TotalPrice":" Total Cost ",
+    "Empty":"Empty",
+    "ChooseAccount":"Choose Account"
   }
+},
+"ManufactureOrder":{
+  "ManufactureOrder":"Manufacture Order",
+  "ProductRecipe":"Recipe DocNumber"
 }
 
 

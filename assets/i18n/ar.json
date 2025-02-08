@@ -243,11 +243,11 @@
   "Print":"طباعة",
   "New":" جديد",
   "Details":"التفاصيل",
-  "CreatedDate":"تاريخ الانشاء",
-  "CreatedByName":" انشئ بواسطة ",
-  "LastModifiedDate":"تاريخ اخر تعديل",
-  "ModifyByName":"اخر شخص قام بالتعديل",
-  "ModifyCount":"عدد مرات التعديل",
+  "CreatedDate":"انشئ في",
+  "CreatedByName":"  بواسطة ",
+  "LastModifiedDate":"   اخر تعديل في"  ,
+  "ModifyByName":" تعديل بواسطة ",
+  "ModifyCount":" مرات التعديل",
   "Gl":"القيد",
   "Debit":"مدين",
   "Credit":"دائن",
@@ -286,6 +286,7 @@
 },
 
 "Table":{
+  "Photo":"الصور",
   "BranchName":"الفرع",
   "Units":"الوحدات",
   "TotalDiscRate":"نسبة الخصم",
@@ -907,7 +908,7 @@
   "ChooseStore":"اختر المخزن",
   "FromStoreId":"من مخزن",
   "ToStoreId":"الي مخزن ",
-  "Name":"الاسم",
+  "Name":"المنتج",
   "BalanceFrom":"رصيد مخزن محول منه",
   "BalanceTo":"رصيد مخزن محول اليه",
   "Quantity":"الكمية",
@@ -1963,12 +1964,28 @@
 "ProductRecipe":{
   "ProductRecipe":"كارت الصنف - ريسبي",
   "WA":"التكلفة",
+  "OpenToEdite":"فتح للتعديل",
+  "TotalDirectProduct":" مواد مباشرة",
+  "TotalDirectSalary":"اجور مباشرة",
+  "TotalInDirectProduct":"مواد غير المباشرة",
+  "TotalInDirectSalary":"اجور غير مباشرة",
+  "TotalInDirectOther":"نفقات عامة - OverHead",
+  "TotalPrice":"اجمالي التكلفة",
+  "CreateRecipe":" تاكيد و تشغيل ",
   "Error":{
+    "EnterProductUnit":"اختر وحدة المنتج",
     "StoreId":"اختر المخزن",
     "ChooseItem":"اختر المنتج",
-    "EmptyCost":"ليس هناك تكاليف للحفظ",
-    "EmptyCostName":"ادخل اسم التكلفة"
+    "EnterCostCenter":"اختر مركز التكلفة",
+    "EnterQuantity":"ادخل الكمية",
+    "TotalPrice":"خطا بالاجمالي فارغ",
+    "Empty":"فارغ",
+    "ChooseAccount":"اختر الحساب"
   }
+},
+"ManufactureOrder":{
+  "ManufactureOrder":"اوامر تشغيل",
+  "ProductRecipe":"  رقم الريسبي "
 }
 
 }
