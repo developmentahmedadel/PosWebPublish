@@ -610,6 +610,7 @@
 "DataLengthZero":"لا يوجد بيانات"
 },
 "DocType":{
+  "ManufactureOrder":" تصنيع",
 "TreasueyIn":" استلام نقدية ",
 "TreasueyOut":" صرف نقدية ",
 "TransferBanches":"التحويل بين الفروع",
@@ -1963,6 +1964,7 @@
 },
 "ProductRecipe":{
   "ProductRecipe":"كارت الصنف - ريسبي",
+  "ResetWa":"تحديث التكلفة",
   "WA":"التكلفة",
   "OpenToEdite":"فتح للتعديل",
   "TotalDirectProduct":" مواد مباشرة",
@@ -1985,7 +1987,16 @@
 },
 "ManufactureOrder":{
   "ManufactureOrder":"اوامر تشغيل",
-  "ProductRecipe":"  رقم الريسبي "
+  "ProductRecipe":"  المنتج او رقم الريسبي  ",
+  "ResetWa":"تحديث التكلفة",
+  "DoneStorage":"المخزن التام",
+  "Error":{
+    "ProductRecipeId":" ادخل رقم الريسبي",
+    "DoneStorage":"اختر المخزن التام"
+  }
+},
+"ManufactureInvoice":{
+  "ManufactureInvoice":"ييع مباشر"
 }
 
 }

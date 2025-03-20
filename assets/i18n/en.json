@@ -586,6 +586,7 @@
 "DataLengthZero":"NotFound"
 },
 "DocType":{
+  "ManufactureOrder":"Manufacture Order",
 "TransferBranches":"Transfer Banches",
 "TreasueyIn":" Treasuey In ",
 "TreasueyOut":" Treasuey Out ",
@@ -1934,6 +1935,7 @@
 },
 "ProductRecipe":{
   "ProductRecipe":"Product Recipe",
+  "ResetWa":"Refresh Wa",
   "CreateRecipe":"Create Recipe",
   "TotalDirectProduct":"Direct Product",
   "TotalDirectSalary":"Direct Salary",
@@ -1957,7 +1959,16 @@
 },
 "ManufactureOrder":{
   "ManufactureOrder":"Manufacture Order",
-  "ProductRecipe":"Recipe DocNumber"
+  "ProductRecipe":"Recipe DocNumber",
+  "ResetWa":"Refresh Wa",
+  "DoneStorage":"Done Storage",
+  "Error":{
+    "ProductRecipeId":"Enter Recipe DocNumber ",
+    "DoneStorage":"Select Done Storage"
+  }
+},
+"ManufactureInvoice":{
+  "ManufactureInvoice":"Manufacture Invoice"
 }
 
 

@@ -1,0 +1,1 @@
+import{ca as a}from"./chunk-RH76WUG2.js";var o=(()=>{let t=class t{constructor(){this.ScreenData=null}SetScreenData(r){this.ScreenData=r}resolve(){return this.ScreenData}};t.\u0275fac=function(n){return new(n||t)},t.\u0275prov=a({token:t,factory:t.\u0275fac,providedIn:"root"});let e=t;return e})();export{o as a};
